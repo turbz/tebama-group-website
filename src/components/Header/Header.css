@@ -153,4 +153,15 @@
   .Header .logo {
     margin: auto 0;
   }
+
+  .Header .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.8em;
+  }
+
+  .Header nav > button:first-of-type {
+    display: none;
+  }
 }

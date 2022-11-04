@@ -26,7 +26,7 @@ export default function Header() {
               <IoIosMail />
               <span>
                 <a href="mailto:info@tebamagroup.co.za">
-                  info@tebamagroup.co.za
+                  logistics@tebamagroup.co.za
                 </a>
               </span>
             </li>

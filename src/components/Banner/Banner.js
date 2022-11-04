@@ -49,10 +49,11 @@ export default function Banner() {
           </h2>
           <h3>AN INVITATION OF NEW LOGISTIC POSSIBILITIES </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac
-            lacinia lacus, id fermentum est. Etiam eget egestas nulla, eu
-            finibus urna. Nulla nunc felis, maximus ac eleifend vel, mollis nec
-            est. In hac habitasse platea dictumst
+            TGC is 100 percent black owned group of companies. The 2 directors
+            are well experienced & skilled in logistics with their combined
+            experience of over 20 years. The directors are passionate,
+            ambitious, and highly motivated individual with long term view for
+            the group.
           </p>
           <ul>
             <li>

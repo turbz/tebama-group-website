@@ -37,7 +37,7 @@
 
 @media (min-width: 50em) {
   .Tebama-Partners .partners-cardlist li {
-    --width: 2;
+    --width: 1.5;
   }
 }
 

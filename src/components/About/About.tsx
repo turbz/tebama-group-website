@@ -17,7 +17,7 @@ export default function About() {
             alt="video"
           />
 
-          <h5>10 Year Experience</h5>
+          <h5>20+ Years Experience</h5>
           <div className="tree">
             <StaticImage
               className="video-image"
@@ -33,27 +33,28 @@ export default function About() {
             <span> logistic </span>Partner
           </h2>
           <p>
-            Logistic is a global supplier of transport and logistics solutions.
-            We have offices in more than 50 countries and an international
-            network of partners and agents, making us a truly global player that
-            offers services worldwide.
+            Tebama Group of Companies (TGC) is a transport and logistics
+            brokerage company established in 2020. The company is a located the
+            Vaal Triangle. The company support and empower local or communities
+            based trucking companies. TGC is undertakes national and
+            international shipments.
           </p>
-          <h4>THE STANDARD LOREM IPSUM PASSAGE, USED SINCE THE 1500s</h4>
+          <h4>VALUE PROPOSITION</h4>
           <ul>
             <li>
               <FaGraduationCap />
-              <span> Always learning - </span>
-              <span>he thing that makes us different.</span>
+              <span> Reliable - </span>
+              <span>We will get your shipment there (Nomakanjani).</span>
             </li>
             <li>
               <FaCogs />
-              <span> Latest Technology - </span>
-              <span>he thing that makes us different.</span>
+              <span> Punctual - </span>
+              <span>We promise to deliver on time.</span>
             </li>
             <li>
               <FaCubes />
-              <span> Safety & Quality - </span>
-              <span>he thing that makes us different.</span>
+              <span> Ubuntu - </span>
+              <span>person is a person because of others Directors:.</span>
             </li>
           </ul>
         </div>

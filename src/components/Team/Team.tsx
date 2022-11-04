@@ -46,9 +46,10 @@ export default function Team() {
             <span> Team</span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac
-            lacinia lacus fermentum est. Etiam eget egestas nulla, eu finibus
-            urna. Nulla nunc felis,{" "}
+            We partner with local logistics companies to deliver excellent
+            service to industry timeously. The 2 directors are well experienced
+            & skilled in logistics with their combined experience of over 20
+            years.
           </p>
           <div>
             <h4>For Multiple Queries: </h4>
