@@ -10,7 +10,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <section className="Tebama-Footer">
+    <section id="footer" className="Tebama-Footer">
       <footer>
         <div id="about">
           <figure>
@@ -20,9 +20,8 @@ export default function Footer() {
             />
           </figure>
           <p>
-            Our global logistics expertise, advanced supply chain technology &
-            customized logistics solutions will help you develop and implement
-            successful supply.
+            Tebama Group of Companies (TGC) is a transport and logistics
+            brokerage company established in 2020.
           </p>
           <ul className="socials">
             <li>
@@ -44,22 +43,13 @@ export default function Footer() {
           <span></span>
           <ul>
             <li>
-              <a href="#services">About Us</a>
+              <a href="#shipping">Ground Shipping</a>
             </li>
             <li>
-              <a href="#features">Meet Our Team</a>
+              <a href="#loading">Loading</a>
             </li>
             <li>
-              <a href="#features">New & Media</a>
-            </li>
-            <li>
-              <a href="#features">Case Studies</a>
-            </li>
-            <li>
-              <a href="#features">Contacts</a>
-            </li>
-            <li>
-              <a href="#features">Careers</a>
+              <a href="#trailer">Trailer Serivces</a>
             </li>
           </ul>
         </div>
@@ -68,22 +58,22 @@ export default function Footer() {
           <span></span>
           <ul>
             <li>
-              <a href="#features">Warehousing</a>
+              <a href="#header">Home</a>
             </li>
             <li>
-              <a href="#contact">Air Freight</a>
+              <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="#contact">Ocean Freight</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#contact">Road Freight</a>
+              <a href="#team">Our Team</a>
             </li>
             <li>
-              <a href="#contact">Supply Chain</a>
+              <a href="#contact">Request A Quote</a>
             </li>
             <li>
-              <a href="#contact">Packaging</a>
+              <a href="#partners">Partners</a>
             </li>
           </ul>
         </div>
@@ -92,22 +82,22 @@ export default function Footer() {
           <span></span>
           <ul>
             <li>
-              <a href="#services">Retail & Consumer</a>
+              <a href="#team">Retail & Consumer</a>
             </li>
             <li>
-              <a href="#services">Sciences & Healthcare</a>
+              <a href="#team">Sciences & Healthcare</a>
             </li>
             <li>
-              <a href="#services">Industrial & Chemical</a>
+              <a href="#team">Industrial & Chemical</a>
             </li>
             <li>
-              <a href="#services">Power Generation</a>
+              <a href="#team">Power Generation</a>
             </li>
             <li>
-              <a href="#services">Food & Beverage</a>
+              <a href="#team">Food & Beverage</a>
             </li>
             <li>
-              <a href="#services">Oil & Gas</a>
+              <a href="#team">Oil & Gas</a>
             </li>
           </ul>
         </div>

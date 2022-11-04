@@ -9,24 +9,25 @@
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  --column: 4;
+  --column: 5;
 }
 
 .Tebama-Partners .partners-cardlist li {
-  --width: 4;
-  --initialBasis: calc(var(--width, 0) / var(--columns, 6) * 100%);
-  --gap: calc((var(--columns, 6) - var(--width, 0)) * 2.5%);
+  --width: 5;
+  --initialBasis: calc(var(--width, 0) / var(--columns, 5) * 100%);
+  --gap: calc((var(--columns, 5) - var(--width, 0)) * 1%);
   flex-basis: calc(var(--initialBasis) - var(--gap));
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   height: 92px;
   text-align: center;
-  margin: 1em 0;
+  margin: 1em;
 }
 
 .Tebama-Partners .partners-cardlist li img {
   width: auto;
   max-height: 92px;
+  margin: auto 0;
   opacity: 0.25;
   transition: ease-in 1s;
 }

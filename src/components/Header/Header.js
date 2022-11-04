@@ -11,7 +11,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="Header">
+    <header id="header" className="Header">
       <div className="logo">
         <h1>Tebama Group</h1>
         <StaticImage
@@ -63,43 +63,43 @@ export default function Header() {
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Home</a>
+              <a href="#header">Home</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Blog</a>
+              <a href="#team">Our Team</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Pages</a>
+              <a href="#partners">Partners</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li>
               <span className="arrow">
                 <span></span>
               </span>
-              <a href="#home">Buy Now</a>
+              <a href="#home">Call Now</a>
             </li>
           </ul>
           <button>Request for quote</button>

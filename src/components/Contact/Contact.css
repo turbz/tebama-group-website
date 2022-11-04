@@ -26,6 +26,17 @@
   height: 200px;
 }
 
+.Tebama-Contact form > input[type="submit"] {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  width: 140px;
+  height: 48px;
+  margin: 1em auto;
+  background-color: var(--tebama-secondary-color);
+}
+
 @media (min-width: 37.5em) {
   .Tebama-Contact form .wrapper {
     display: flex;

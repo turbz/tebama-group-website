@@ -38,7 +38,7 @@ export default function Team() {
     },
   ];
   return (
-    <section className="Tebama-Team">
+    <section id="team" className="Tebama-Team">
       <div className="wrapper">
         <div className="contact-info">
           <h2>

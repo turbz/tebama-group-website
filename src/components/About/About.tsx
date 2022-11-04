@@ -5,7 +5,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <section className="About">
+    <section id="about" className="About">
       <h2>
         ABOUT
         <span> TEBAMA GROUP</span>

@@ -154,14 +154,29 @@
     margin: auto 0;
   }
 
+  .Header .main-nav {
+    width: 850px;
+  }
+
+  .Header .connect {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
   .Header .navigation {
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: 0.8em;
+    width: 72%;
+    margin: 1em;
   }
 
   .Header nav > button:first-of-type {
     display: none;
+  }
+
+  .Header .navigation li:last-of-type a {
+    background-color: var(--tebama-secondary-color);
+    padding: 0.5em 0.8em;
   }
 }

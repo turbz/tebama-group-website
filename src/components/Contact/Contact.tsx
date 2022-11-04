@@ -3,7 +3,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <section className="Tebama-Contact">
+    <section id="contact" className="Tebama-Contact">
       <h2>
         Request
         <span> a quick quote </span>
@@ -78,6 +78,7 @@ export default function Contact() {
             placeholder="Messagae"
           ></textarea>
         </div>
+        <input type="submit" value="Submit Now" />
       </form>
     </section>
   );
