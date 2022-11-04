@@ -1,0 +1,45 @@
+.Tebama-Partners {
+  padding: 3em 0;
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
+  margin-bottom: 4em;
+}
+
+.Tebama-Partners .partners-cardlist {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  --column: 4;
+}
+
+.Tebama-Partners .partners-cardlist li {
+  --width: 4;
+  --initialBasis: calc(var(--width, 0) / var(--columns, 6) * 100%);
+  --gap: calc((var(--columns, 6) - var(--width, 0)) * 2.5%);
+  flex-basis: calc(var(--initialBasis) - var(--gap));
+  /* display: flex; */
+  justify-content: center;
+  height: 92px;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.Tebama-Partners .partners-cardlist li img {
+  width: auto;
+  max-height: 92px;
+  opacity: 0.25;
+  transition: ease-in 1s;
+}
+
+.Tebama-Partners .partners-cardlist li:hover img {
+  opacity: 1;
+}
+
+@media (min-width: 50em) {
+  .Tebama-Partners .partners-cardlist li {
+    --width: 2;
+  }
+}
+
+@media (min-width: 64em) {
+}

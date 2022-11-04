@@ -1,0 +1,94 @@
+.Tebama-Services {
+  padding: 3em 0;
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
+  background-color: #e9e9e9;
+}
+
+.Tebama-Services .service-cardlist {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 2em 0;
+  --column: 2;
+}
+
+.Tebama-Services .card {
+  --width: 6;
+  --initialBasis: calc(var(--width, 0) / var(--columns, 6) * 100%);
+  --gap: calc((var(--columns, 6) - var(--width, 0)) * 1.33%);
+  flex-basis: calc(var(--initialBasis) - var(--gap));
+  /* width: 48%; */
+  text-align: center;
+  margin: 1em 0;
+  padding: 2em 1.5em;
+  background-color: #fff;
+}
+
+.Tebama-Services .card:not(:nth-child(1), :nth-child(2)) {
+  display: none;
+}
+
+.Tebama-Services .card h3 {
+  font-size: var(--h5);
+  letter-spacing: 2px;
+}
+
+.Tebama-Services .card p {
+  font-size: 0.875rem;
+  margin: 1em auto;
+  line-height: 2;
+}
+
+.Tebama-Services .card svg {
+  width: 72px;
+  height: 72px;
+  margin: auto;
+}
+
+.Tebama-Services .service-toggle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.Tebama-Services .service-toggle li {
+  width: 12px;
+  height: 12px;
+  background-color: var(--tebama-secondary-color);
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+}
+
+.Tebama-Services .service-toggle li:first-of-type {
+  background-color: var(--tebama-quaternary-color);
+}
+
+@media (min-width: 50em) {
+  .Tebama-Services .card {
+    --width: 3;
+    display: inline-block !important;
+  }
+
+  .Tebama-Services .service-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .Tebama-Services .card {
+    text-align: right;
+    display: flex !important;
+  }
+
+  .Tebama-Services .card div {
+    width: 85%;
+    margin-right: 1em;
+  }
+
+  .Tebama-Services .card svg {
+    width: 52px;
+    height: 52px;
+  }
+}

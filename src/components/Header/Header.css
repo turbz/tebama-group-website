@@ -1,0 +1,156 @@
+.Header {
+  width: 100vw;
+  text-align: center;
+  color: #fff;
+  padding: 2em 0;
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
+  background-color: #000;
+}
+
+.Header h1 {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.Header .logo img {
+  width: 180px;
+}
+
+.Header .logo {
+  margin-bottom: 1em;
+}
+
+.Header li a {
+  color: #fff;
+}
+
+.Header .connect {
+  padding: 0 0.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--tebama-secondary-color);
+}
+
+.Header .contacts {
+  font-size: 0.825rem;
+  font-weight: 600;
+}
+
+.Header .contacts li {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25em;
+}
+
+.Header .contacts svg {
+  fill: var(--tebama-secondary-color);
+  width: 18px;
+  height: 18px;
+  margin: auto 0;
+}
+
+.Header .contacts span {
+  margin: auto 0;
+  margin-left: 0.5em;
+}
+
+.Header .socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25em;
+}
+
+.Header .socials svg {
+  margin-left: 0.5em;
+}
+
+.Header nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header .navigation {
+  display: none;
+}
+
+.Header nav > button:first-of-type {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.Header nav > button:first-of-type svg {
+  width: auto;
+  height: 42px;
+  color: #fff;
+}
+
+.Header nav > button:last-of-type {
+  font-size: 0.875rem;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  width: 180px;
+  padding: 1.25em 0;
+  padding-left: 1.6em;
+  border: none;
+  background-color: var(--tebama-secondary-color);
+}
+
+.Header nav > button:last-of-type::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 46px solid transparent;
+  border-bottom: 57px solid #000;
+  content: "";
+  left: -1px;
+  top: 0;
+}
+
+@media (min-width: 30em) {
+  .Header .connect {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Header .contacts li {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 50em) {
+  .Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 1;
+  }
+  .Header .contacts {
+    display: flex;
+  }
+
+  .Header .contacts li {
+    margin-right: 1em;
+  }
+
+  .Header .socials li {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 64em) {
+  .Header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Header .logo {
+    margin: auto 0;
+  }
+}

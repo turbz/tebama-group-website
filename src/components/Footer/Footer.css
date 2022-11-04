@@ -1,0 +1,181 @@
+.Tebama-Footer footer {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding: 60px var(--wp--custom--spacing--outer);
+  background-color: #000;
+  --column: 4;
+}
+
+.Tebama-Footer footer h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.Tebama-Footer figure {
+  width: 180px;
+  height: 92px;
+  margin: 0 auto;
+}
+
+.Tebama-Footer footer > div {
+  --width: 4;
+  --initialBase: calc(var(--width, 0) / var(--column, 4) * 100%);
+  --gap: calc((var(--column, 4) - var(--width, 0)) * 1.33%);
+  width: calc(var(--initialBase) - var(--gap));
+  margin-bottom: 30px;
+}
+
+.Tebama-Footer footer > div:first-of-type {
+  --width: 4;
+}
+
+.Tebama-Footer footer > div:first-of-type ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.Tebama-Footer footer > div:first-of-type ul li {
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  margin-left: 0.5em;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.Tebama-Footer footer > div:first-of-type ul li svg {
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}
+
+.Tebama-Footer footer div:last-of-type {
+  margin-bottom: 0;
+}
+
+.Tebama-Footer footer ul span:first-of-type {
+  display: flex;
+  width: 36px;
+  margin: 0;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.Tebama-Footer footer ul a {
+  color: #fff;
+}
+
+.Tebama-Footer footer ul a:hover {
+  color: #d93636;
+  transition: ease-in 1s;
+}
+
+.Tebama-Footer footer ul img {
+  width: auto;
+  height: 18px;
+  margin: auto;
+}
+
+.Tebama-Footer footer span:last-of-type {
+  display: block;
+  width: 50px;
+  margin: 15px auto;
+  border: 1.5px solid var(--tebama-secondary-color);
+  border-radius: 15px;
+}
+
+.Tebama-Footer footer p {
+  text-transform: none;
+  line-height: 1.4;
+}
+
+.Tebama-Footer footer li {
+  margin-bottom: 1em;
+}
+
+.Tebama-Footer footer div:last-of-type li {
+  display: flex;
+}
+
+.Tebama-Footer footer .copyright {
+  text-align: left;
+  --width: 4;
+  padding: 2em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  line-height: 1.5;
+}
+
+.Tebama-Footer footer .copyright ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 0.925rem;
+}
+
+.Tebama-Footer footer .copyright ul li {
+  display: inline-block;
+}
+
+.Tebama-Footer footer .copyright ul span {
+  display: inline;
+  color: var(--tebama-secondary-color);
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+}
+
+@media (min-width: 30em) {
+  .Tebama-Footer footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .Tebama-Footer footer > div {
+    --width: 1.4;
+  }
+}
+
+@media (min-width: 50em) {
+  .taevo-style span {
+    height: 345px;
+  }
+
+  .Tebama-Footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Tebama-Footer footer > div,
+  .Tebama-Footer footer > div:first-of-type {
+    text-align: left;
+    --width: 2;
+  }
+
+  .Tebama-Footer footer span:last-of-type {
+    margin: 15px 0;
+  }
+
+  .Tebama-Footer footer > div:first-of-type ul {
+    justify-content: flex-start;
+  }
+
+  .Tebama-Footer figure {
+    margin: 0;
+  }
+}
+
+@media (min-width: 64em) {
+  .Tebama-Footer footer > div,
+  .Tebama-Footer footer > div:first-of-type {
+    text-align: left;
+    --width: 1;
+  }
+}

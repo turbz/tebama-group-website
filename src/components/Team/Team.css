@@ -1,0 +1,146 @@
+.Tebama-Team {
+  background-color: #fff;
+  padding: 3em 0.8em;
+}
+
+.Tebama-Team .contact-info {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
+}
+
+.Tebama-Team p {
+  color: var(--tebama-tertiary-color);
+  font-size: 0.875rem;
+  margin: 2em auto;
+  line-height: 1.6;
+}
+
+.Tebama-Team .contact-info > div > h4 {
+  color: var(--tebama-secondary-color);
+  font-size: 1.25rem;
+}
+
+.Tebama-Team .contact-info ul {
+  font-weight: 900;
+  font-size: 0.875rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+.Tebama-Team .contact-info button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.Tebama-Team .contact-info button a {
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0.8em 1.4em;
+  background-color: var(--tebama-secondary-color);
+}
+
+.Tebama-Team .contact-info input {
+  padding: 0.5em 0.8em;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 2em;
+}
+
+.Tebama-Team .team-cardlist {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  max-width: 480px;
+  margin: 2em auto;
+  border: 1px solid #e4e4e4;
+  --column: 2;
+}
+
+.Tebama-Team .card {
+  width: 50%;
+  text-align: center;
+  padding: 2em 1em;
+  background-color: #fff;
+}
+
+.Tebama-Team .card:nth-child(1),
+.Tebama-Team .card:nth-child(2) {
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.Tebama-Team .card:nth-child(even) {
+  border-left: 1px solid #d4d4d4;
+}
+
+.Tebama-Team .card h4 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+}
+
+.Tebama-Team .card h5 {
+  color: var(--tebama-secondary-color);
+  font-weight: normal;
+  font-size: 0.75rem;
+  margin-top: 0.5em;
+  letter-spacing: 1px;
+}
+
+.Tebama-Team .card figure {
+  border: 2px solid var(--tebama-secondary-color);
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 0.8em;
+  border-radius: 50%;
+  background-image: url(../../images/taylor-grote-UiVe5QvOhao-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Tebama-Team .card svg {
+  margin: auto;
+}
+
+@media (min-width: 30em) {
+  .Tebama-Team .contact-info input {
+    margin-right: 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  .Tebama-Team .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+    margin-left: var(--wp--custom--spacing--outer);
+    margin-right: var(--wp--custom--spacing--outer);
+  }
+
+  .Tebama-Team h2 {
+    text-align: left !important;
+  }
+
+  .Tebama-Team .contact-info {
+    width: 49%;
+    text-align: left;
+    margin: auto 0;
+    padding: 0;
+  }
+
+  .Tebama-Team .contact-info ul {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .Tebama-Team .team-cardlist {
+    width: 49%;
+    margin: auto 0;
+  }
+}

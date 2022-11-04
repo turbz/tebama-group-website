@@ -1,0 +1,124 @@
+.About {
+  /* position: relative; */
+  /* width: 100%; */
+  margin-bottom: 4em;
+  margin-left: var(--wp--custom--spacing--outer);
+  margin-right: var(--wp--custom--spacing--outer);
+  /* overflow: hidden; */
+}
+
+.About .video {
+  position: relative;
+  margin-bottom: 5em;
+}
+
+.About .video > div:first-of-type {
+  /* display: flex; */
+  width: 100%;
+  height: calc(100vh - 60vh);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.About .video > div:first-of-type img {
+  width: 100%;
+}
+
+.About h5 {
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  top: 74px;
+  right: -6.4em;
+  transform: rotate(90deg);
+  letter-spacing: 1.5px;
+}
+
+.About .tree {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: -4em;
+  right: -3em;
+  width: 180px;
+  padding: 1em;
+  border: 10px solid #fff;
+  background-color: var(--tebama-secondary-color);
+  border-radius: 15px;
+}
+
+.About .experience {
+  line-height: 1.5;
+}
+
+.About .experience h2 {
+  text-align: left !important;
+  text-transform: capitalize;
+}
+
+.About .experience h4 {
+  --h4: var(--h4-resize);
+  margin: 1em 0;
+}
+
+.About .experience li {
+  display: inline-block;
+  margin-bottom: 0.8em;
+}
+
+.About .experience li svg {
+  fill: var(--tebama-secondary-color);
+  width: 16px;
+  height: 16px;
+  margin: auto 0;
+  margin-right: 0.5em;
+}
+
+.About .experience li span:first-of-type {
+  font-weight: 600;
+}
+
+@media (min-width: 37.5em) {
+  .About {
+    margin-left: var(--wp--custom--spacing--outer);
+    margin-right: var(--wp--custom--spacing--outer);
+  }
+
+  .About .video,
+  .About .experience {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .About .video > div:first-of-type {
+    height: 400px;
+  }
+
+  .About h5 {
+    font-size: 1.25em;
+    top: 140px;
+    right: -6em;
+  }
+
+  .About .experience h2 {
+    --h2: 2rem !important;
+  }
+}
+
+@media (min-width: 64em) {
+  .About {
+    margin-top: 2em;
+    margin-bottom: 8em;
+  }
+  .About .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6em;
+  }
+
+  .About .wrapper > div {
+    width: 45%;
+    max-width: none;
+  }
+}

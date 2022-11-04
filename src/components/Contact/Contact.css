@@ -1,0 +1,41 @@
+.Tebama-Contact {
+  color: #fff;
+  margin-bottom: 4em;
+  padding: var(--wp--custom--spacing--outer);
+  background-color: #000;
+}
+
+.Tebama-Contact form input,
+.Tebama-Contact form select,
+.Tebama-Contact form textarea {
+  color: var(--tebama-quaternary-color);
+  font-size: 0.875rem;
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 0.8em;
+  border-radius: 0;
+  border: none;
+}
+
+.Tebama-Contact form input::placeholder {
+  color: var(--tebama-quaternary-color);
+}
+
+.Tebama-Contact form textarea {
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width: 37.5em) {
+  .Tebama-Contact form .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 4em auto 0;
+  }
+
+  .Tebama-Contact form .wrapper > div {
+    width: 48%;
+  }
+}
