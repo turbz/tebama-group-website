@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import {
   FaFacebookF,
@@ -6,10 +6,17 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-import { IoIosCall, IoIosMail, IoIosPin, IoMdMenu } from "react-icons/io";
+import {
+  IoIosCall,
+  IoIosMail,
+  IoIosPin,
+  IoMdClose,
+  IoMdMenu,
+} from "react-icons/io";
 import "./Header.css";
 
 export default function Header() {
+  const [toggle, setToggle] = useState(false);
   return (
     <header id="header" className="Header">
       <div className="logo">
@@ -55,53 +62,77 @@ export default function Header() {
           </ul>
         </div>
         <nav>
-          <button>
-            <IoMdMenu />
+          {toggle && (
+            <div onClick={() => setToggle(!toggle)} className="nav-bg"></div>
+          )}
+          <button onClick={() => setToggle(!toggle)}>
+            {!toggle ? <IoMdMenu /> : <IoMdClose />}
           </button>
-          <ul className="navigation">
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#header">Home</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#team">Our Team</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#partners">Partners</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#contact">Contact</a>
-            </li>
-            <li>
-              <span className="arrow">
-                <span></span>
-              </span>
-              <a href="#home">Call Now</a>
-            </li>
-          </ul>
+          <div
+            style={{
+              display: !toggle ? "none" : "flex",
+            }}
+            className="navigation"
+          >
+            <ul className="main-menu">
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#header" onClick={() => setToggle(!toggle)}>
+                  Home
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#about" onClick={() => setToggle(!toggle)}>
+                  About
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#services" onClick={() => setToggle(!toggle)}>
+                  Services
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#team" onClick={() => setToggle(!toggle)}>
+                  Our Team
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#partners" onClick={() => setToggle(!toggle)}>
+                  Partners
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#contact" onClick={() => setToggle(!toggle)}>
+                  Contact
+                </a>
+              </li>
+              <li>
+                <span className="arrow">
+                  <span></span>
+                </span>
+                <a href="#home" onClick={() => setToggle(!toggle)}>
+                  Call Now
+                </a>
+              </li>
+            </ul>
+          </div>
           <button>Request for quote</button>
         </nav>
       </div>
