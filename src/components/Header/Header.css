@@ -251,6 +251,8 @@
 }
 
 @keyframes menuSlideRight {
+  /*animation sliding from right to left */
+
   from {
     margin-right: -100%;
   }
