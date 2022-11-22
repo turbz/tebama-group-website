@@ -6,6 +6,7 @@ import Services from "../components/Services/Services";
 import Team from "../components/Team/Team";
 import Contact from "../components/Contact/Contact";
 import Partners from "../components/Partners/Partners";
+import { Seo } from "../components/seo";
 
 const IndexPage = () => {
   return (
@@ -24,4 +25,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <Seo />;

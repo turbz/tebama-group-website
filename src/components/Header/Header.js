@@ -33,17 +33,17 @@ export default function Header() {
               <IoIosMail />
               <span>
                 <a href="mailto:info@tebamagroup.co.za">
-                  logistics@tebamagroup.co.za
+                  info@tebamagroup.co.za
                 </a>
               </span>
             </li>
             <li>
               <IoIosPin />
-              <span>15/A, Vaal, GP</span>
+              <span>8022 Tshepiso North, Sharpville Vanderbijlpark</span>
             </li>
             <li>
               <IoIosCall />
-              <span>+27 015 000 8450</span>
+              <span>+27 78 453 1947</span>
             </li>
           </ul>
           <ul className="socials">
@@ -79,7 +79,7 @@ export default function Header() {
                 <span className="arrow">
                   <span></span>
                 </span>
-                <a href="#header" onClick={() => setToggle(!toggle)}>
+                <a href="#home" onClick={() => setToggle(!toggle)}>
                   Home
                 </a>
               </li>

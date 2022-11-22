@@ -54,12 +54,12 @@ export default function Team() {
           <div>
             <h4>For Multiple Queries: </h4>
             <ul>
-              <li>P: +27-012-056-0000, +27-070-000-6700</li>
-              <li>E: logistics@tebama.co.za</li>
+              <li>P: +27 78-453-1947, +27-76-218-6500</li>
+              <li>E: info@tebamagroup.co.za</li>
             </ul>
-            <input type="text" placeholder="Enter email address" />
+            {/* <input type="text" placeholder="Enter email address" /> */}
             <button>
-              <a href="tel:070000000">Call Now</a>
+              <a href="tel:27784531947">Call Now</a>
             </button>
           </div>
         </div>

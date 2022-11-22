@@ -31,7 +31,7 @@ export default function Banner() {
     },
   ];
   return (
-    <section className="Tebama-Banner">
+    <section id="home" className="Tebama-Banner">
       <div className="banner">
         <figure className="cover">
           <StaticImage
